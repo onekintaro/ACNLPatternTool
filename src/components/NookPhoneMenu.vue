@@ -15,15 +15,14 @@
         <button @click="goToBrowse">
             Browse
         </button>
-        <button @click="goToFAQ">
-            FAQ
-        </button>
-        <button @click="goToChanges">
-            Changelog
-        </button>
-        <a href="https://discord.gg/9rGkZNk">
+        <a href="https://discord.gg/FbDTwPN">
             <button>
-                Discord
+                ACNH.ch Discord
+            </button>
+        </a>
+        <a href="https://acnh.ch">
+            <button>
+                ACNH.ch Homepage
             </button>
         </a>
         <button @click="closeMenu">

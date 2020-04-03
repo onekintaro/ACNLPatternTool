@@ -6,7 +6,8 @@
       </div><div class="heading">
         <h1>Animal Crossing Pattern Tool</h1>
         <h2>Compatible with Animal Crossing: New Leaf, Animal Crossing: Happy Home Designer and Animal Crossing: New Horizons</h2>
-        <h2>By <a href="https://thulinma.com">Thulinma</a>, <a href="https://github.com/DamSenViet">DamSenViet</a>, and <a href="https://github.com/myumi">Myumi</a></h2>
+        <h2>By Thulinma, DamSenViet, Myumi, OneKintaro and Swordi</h2>
+        <h2>Powered by <a href="https://acnh.ch" target="_blank">acnh.ch</a></h2>
       </div>
     </div>
     <div class="button browse" @click="goToBrowse">
@@ -15,20 +16,14 @@
     <div class="button editor" @click="goToEditor">
       <div class="text">Editor</div>
     </div>
-    <div class="button faq" @click="goToFAQ">
-      <div class="text">FAQ</div>
-    </div>
-    <div class="button changelog" @click="goToChanges">
-      <div class="text">Changelog</div>
-    </div>
     <div class="button discord">
-      <a href="https://discord.gg/9rGkZNk" class="text">Discord</a>
+      <a href="https://discord.gg/FbDTwPN" class="text">ACNH.ch Discord</a>
     </div>
   </div>
 </template>
 
 <script>
-import logoSvg from '/assets/images/ac_easel_opt.svg';
+import logoSvg from '/assets/images/discord_icon_demoto_rot.png';
 export default {
   name: "Home",
   data: function(){
